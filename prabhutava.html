@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prabhutava – Evolve Together</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Syne:wght@400;700;800&family=Cabinet+Grotesk:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="cur"></div>
+<div id="cur-ring"></div>
+<canvas id="particle-canvas"></canvas>
+
+<!-- NAV -->
+<nav>
+  <div class="logo-wrap">
+    <div class="logo-icon">✦</div>
+    <div class="logo-text">PRABHUTAVA</div>
+  </div>
+  <div class="nav-links">
+    <a href="#audience">Who It's For</a>
+    <a href="#features">Features</a>
+    <a href="#why">Why Us</a>
+    <!-- <a href="" class="nav-pill">Join Waitlist</a> -->
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-orb orb1"></div>
+  <div class="hero-orb orb2"></div>
+  <div class="hero-orb orb3"></div>
+  <div class="hero-grid"></div>
+
+  <div style="position:relative;z-index:2;">
+    <div class="hero-badge">
+      <span class="badge-dot"></span>
+      The Creator Economy Is Shifting
+    </div>
+    <h1>
+      <span class="h1-a">MONETIZE</span>
+      <span class="h1-b">YOUR SKILLS</span>
+      <span class="h1-c">BUILD A FUTURE</span>
+    </h1>
+    <p class="hero-sub">A structured platform where your expertise becomes sustainable income. Stop consuming — start building wealth from what you already know.</p>
+    <div class="hero-btns">
+      <!-- <a href="" class="btn-glow">Join the Waitlist →</a> -->
+      <a href="#features" class="btn-ghost">Explore Platform</a>
+    </div>
+  </div><br>
+  <div class="scroll-cue">
+    <span class="scroll-txt">Scroll to explore</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker-wrap">
+  <div class="ticker" aria-hidden="true">
+    <span class="ti">LEARN</span><span class="td">✦</span><span class="ti">TEACH</span><span class="td">✦</span><span class="ti">EARN</span><span class="td">✦</span><span class="ti">OWN YOUR PRICE</span><span class="td">✦</span><span class="ti">BUILD YOUR BRAND</span><span class="td">✦</span><span class="ti">CREATOR ECONOMY</span><span class="td">✦</span><span class="ti">EVOLVE TOGETHER</span><span class="td">✦</span><span class="ti">FINANCIAL FREEDOM</span><span class="td">✦</span>
+    <span class="ti">LEARN</span><span class="td">✦</span><span class="ti">TEACH</span><span class="td">✦</span><span class="ti">EARN</span><span class="td">✦</span><span class="ti">OWN YOUR PRICE</span><span class="td">✦</span><span class="ti">BUILD YOUR BRAND</span><span class="td">✦</span><span class="ti">CREATOR ECONOMY</span><span class="td">✦</span><span class="ti">EVOLVE TOGETHER</span><span class="td">✦</span><span class="ti">FINANCIAL FREEDOM</span><span class="td">✦</span>
+  </div>
+</div>
+
+<!-- STATS -->
+<div class="stats-wrap">
+  <div class="stats-box reveal">
+    <div class="stat"><span class="snum" data-target="1">0</span><div class="slabel">Unified Platform</div></div>
+    <div class="stat"><span class="snum" data-target="30">0</span><div class="slabel">Mins to Go Live</div></div>
+    <div class="stat"><span class="snum" data-target="4">0</span><div class="slabel">Communities</div></div>
+    <div class="stat"><span class="snum">∞</span><div class="slabel">Income Potential</div></div>
+  </div>
+</div>
+
+<!-- AUDIENCE -->
+<section class="aud-sec" id="audience">
+  <div class="aud-hdr reveal">
+    <div class="slbl">Who It's For</div>
+    <h2 class="stitle">BUILT FOR <span style="background:linear-gradient(90deg,var(--purple-bright),var(--pink));-webkit-background-clip:text;-webkit-text-fill-color:transparent;">EVERY</span> SKILL</h2>
+    <p class="ssub">Whether student, professional, creator, or homemaker — your expertise has real market value here.</p>
+  </div>
+  <div class="aud-grid">
+    <div class="aud-card reveal" style="transition-delay:0s">
+      <span class="aud-emoji" ><i class="bi bi-mortarboard-fill"></i></span>
+      <div class="aud-type">Students</div>
+      <ul class="aud-list">
+        <li>Career Accelerator</li>
+        <li>Learn from the Best</li>
+        <li>Proof of Work Portfolio</li>
+        <li>Build Side Income Early</li>
+      </ul>
+    </div>
+    <div class="aud-card reveal" style="transition-delay:0.1s">
+      <span class="aud-emoji"><i class="bi bi-briefcase-fill"></i></span>
+      <div class="aud-type">Professionals</div>
+      <ul class="aud-list">
+        <li>Income Multiplication</li>
+        <li>Location Freedom</li>
+        <li>Authority Positioning</li>
+        <li>Build Authority Online</li>
+      </ul>
+    </div>
+    <div class="aud-card reveal" style="transition-delay:0.2s">
+      <span class="aud-emoji"><i class="bi bi-people-fill"></i></span>
+      <div class="aud-type">Creators</div>
+      <ul class="aud-list">
+        <li>Creator Economy Access</li>
+        <li>Creative Freedom</li>
+        <li>Brand Independence</li>
+        <li>Scale Your Influence</li>
+      </ul>
+    </div>
+    <div class="aud-card reveal" style="transition-delay:0.3s">
+      <span class="aud-emoji"><i class="bi bi-house-fill"></i></span>
+      <div class="aud-type">Homemakers</div>
+      <ul class="aud-list">
+        <li>Earn With Your Passion</li>
+        <li>Work From Home</li>
+        <li>Financial Security</li>
+        <li>Monetize Hobbies</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="feat-sec" id="features">
+  <div class="feat-inner">
+    <div class="reveal-l">
+      <div class="slbl">How It Works</div>
+      <h2 class="stitle">YOUR SKILLS DESERVE MORE THAN A <span style="color:var(--purple-light)">SALARY</span></h2>
+      <p class="ssub">Create. Upload. Monetize what you already know — go live in under 30 minutes.</p>
+      <div class="steps">
+        <div class="step-row">
+          <div class="snwrap"><div class="sn">01</div><div class="sc"></div></div>
+          <div><div class="steptitle">Create Your Course</div><div class="stepdesc">Turn your experience into structured lessons. Set your own price, your own schedule — no tech skills needed.</div></div>
+        </div>
+        <div class="step-row">
+          <div class="snwrap"><div class="sn">02</div><div class="sc"></div></div>
+          <div><div class="steptitle">Upload & Go Live</div><div class="stepdesc">Our platform handles the tech — you just bring the knowledge. Live in minutes, not days.</div></div>
+        </div>
+        <div class="step-row">
+          <div class="snwrap"><div class="sn">03</div></div>
+          <div><div class="steptitle">Earn & Grow</div><div class="stepdesc">Build sustainable income, grow your personal brand, and own your audience — on your terms.</div></div>
+        </div>
+      </div>
+    </div>
+    <div class="feat-cards reveal-r">
+      <div class="fc"><div class="fci fci1">🌐</div><div><div class="fcn">Creator Ecosystem</div><div class="fcs">All-in-one environment — learn, teach, and earn in one place</div></div></div>
+      <div class="fc"><div class="fci fci2">🛠</div><div><div class="fcn">Workshop Builder</div><div class="fcs">Design and run paid workshops with zero friction</div></div></div>
+      <div class="fc"><div class="fci fci3">💳</div><div><div class="fcn">Payment Integration</div><div class="fcs">Seamless, secure payment collection from learners</div></div></div>
+      <div class="fc"><div class="fci fci4">📊</div><div><div class="fcn">Growth Analytics</div><div class="fcs">Track performance and optimize for maximum income</div></div></div>
+      <div class="fc"><div class="fci fci5">🎯</div><div><div class="fcn">Set Your Own Pricing</div><div class="fcs">You're in control — price your knowledge at what it's worth</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section class="why-sec" id="why">
+  <div class="why-inner">
+    <div class="reveal-l">
+      <div class="slbl">Why Prabhutava</div>
+      <h2 class="stitle">ONE ECOSYSTEM. <span style="background:linear-gradient(90deg,var(--purple-bright),var(--gold));-webkit-background-clip:text;-webkit-text-fill-color:transparent;">INFINITE</span> GROWTH.</h2>
+      <p class="ssub">Skills without a platform stay skills. We built Prabhutava to change that forever.</p>
+      <div class="why-list">
+        <div class="wi"><div class="wi-icon"><i class="bi bi-rocket-takeoff-fill"></i></div><div><div class="wit">Learn. Earn. Grow — In One Ecosystem</div><div class="wid">No more juggling multiple tools. Everything you need to monetize your expertise, right here.</div></div></div>
+        <div class="wi"><div class="wi-icon"><i class="bi bi-cash-stack"></i></i></i></div><div><div class="wit">Own Your Pricing</div><div class="wid">Set what you're worth. No hidden cuts, no platform undervaluing your hard-earned expertise.</div></div></div>
+        <div class="wi"><div class="wi-icon"><i class="bi bi-star-fill"></i></div><div><div class="wit">Build Your Personal Brand</div><div class="wid">Prabhutava is your launchpad to becoming a recognized authority in your domain.</div></div></div>
+        <div class="wi"><div class="wi-icon"><i class="bi bi-stopwatch-fill"></i></div><div><div class="wit">Work On Your Terms</div><div class="wid">Break the 9–5. Teach anytime, earn everywhere, build freedom on your schedule.</div></div></div>
+      </div>
+    </div>
+    <div class="unlock reveal-r">
+      <div class="uinner">
+        <div class="ctag">✦ Coming Soon</div>
+        <div class="utitle">UNLOCK YOUR<br><span style="background:linear-gradient(90deg,var(--purple-light),var(--pink));-webkit-background-clip:text;-webkit-text-fill-color:transparent;">SECOND INCOME</span></div>
+        <div class="ugrid">
+          <div class="ui">Paid Workshops</div>
+          <div class="ui">Your Pricing</div>
+          <div class="ui">1:1 Sessions</div>
+          <div class="ui">Your Timeline</div>
+          <div class="ui">Course Builder</div>
+          <div class="ui">Own Audience</div>
+        </div>
+        <p style="font-size:0.8rem;color:var(--muted);">Start in under <span style="color:var(--gold);font-weight:700;">30 minutes</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-sec" id="cta">
+  <div class="cglow1"></div>
+  <div class="cglow2"></div>
+  <div style="position:relative;z-index:1;" class="reveal">
+    <span class="coverline">✦ Be the First to Join ✦</span>
+    <h2 class="ctitle">STOP WAITING.<br><span class="cgrad">START BUILDING.</span></h2>
+    <p class="csub">Own your growth. Own your future. Prabhutava is coming — and the first movers always win.</p>
+    <!-- <a href="mailto:Prabhurava01@gmail.com" class="btn-glow" style="display:inline-block;">Join the Waitlist →</a> -->
+    <p style="margin-top:1.8rem;font-size:0.72rem;color:rgba(250,245,255,0.22);letter-spacing:0.15em;">EVOLVE TOGETHER</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div>
+    <div class="flogo">PRABHUTAVA</div>
+    <div style="font-size:0.62rem;letter-spacing:0.2em;text-transform:uppercase;color:rgba(250,245,255,0.18);margin-top:0.3rem;">Evolve Together</div>
+  </div>
+  <div class="fcontact">
+    <div class="fitem"><span style="color:var(--purple-light);">✉</span><a href="mailto:Prabhurava01@gmail.com">Prabhurava01@gmail.com</a></div>
+    <!-- <div class="fitem"><span style="color:var(--purple-light);">◎</span><a href="https://instagram.com/prabhutava_" target="_blank">@prabhutava_</a></div> -->
+  </div>
+  <div class="fright">© 2026 Prabhutava<br>All rights reserved</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="javascript/script.js"></script>
+</body>
+</html>
